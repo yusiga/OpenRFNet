@@ -1,0 +1,768 @@
+20
+5
+25
+21
+[ 1  4  6  2  0  5 11 14 16 17  8 10 12 13 15 19  3  7  9 18 20]
+561
+Processing label:  T0000
+Processing file 108/561: T0000_D00_S0110.mat
+1400
+Processing file 127/561: T0000_D00_S0101.mat
+1400
+Processing file 281/561: T0000_D00_S10001.mat
+1300
+Processing file 457/561: T0000_D00_S10000.mat
+1300
+Processing label:  T0001
+Processing file 36/561: T0001_D00_S0101.mat
+656
+Processing file 88/561: T0001_D00_S0110.mat
+627
+Processing file 140/561: T0001_D00_S1010.mat
+715
+Processing file 226/561: T0001_D00_S1000.mat
+642
+Processing label:  T0010
+Processing file 258/561: T0010_D00_S0011.mat
+1359
+Processing file 278/561: T0010_D00_S0100.mat
+1549
+Processing file 304/561: T0010_D00_S0111.mat
+1441
+Processing file 356/561: T0010_D00_S0001.mat
+1630
+Processing label:  T0011
+Processing file 89/561: T0011_D00_S0101.mat
+1313
+Processing file 265/561: T0011_D00_S0010.mat
+1204
+Processing file 426/561: T0011_D00_S0000.mat
+1469
+Processing label:  T0100
+Processing file 237/561: T0100_D00_S0100.mat
+1134
+Processing file 259/561: T0100_D00_S0110.mat
+947
+Processing file 440/561: T0100_D00_S1000.mat
+1220
+Processing file 499/561: T0100_D00_S0101.mat
+1247
+Processing label:  T0101
+Processing file 222/561: T0101_D00_S0011.mat
+1592
+Processing file 261/561: T0101_D00_S0010.mat
+1482
+Processing file 295/561: T0101_D00_S0101.mat
+1769
+Processing file 340/561: T0101_D00_S0111.mat
+1483
+Processing label:  T0110
+Processing file 132/561: T0110_D00_S1000.mat
+1299
+Processing file 318/561: T0110_D00_S0011.mat
+1479
+Processing file 346/561: T0110_D00_S0010.mat
+1499
+Processing file 529/561: T0110_D00_S1001.mat
+1598
+Processing label:  T0111
+Processing file 138/561: T0111_D00_S0011.mat
+1387
+Processing file 336/561: T0111_D00_S0010.mat
+1324
+Processing file 417/561: T0111_D00_S0111.mat
+1465
+Processing file 477/561: T0111_D00_S0110.mat
+1299
+Processing label:  T1000
+Processing file 169/561: T1000_D00_S0010.mat
+1477
+Processing file 330/561: T1000_D00_S0001.mat
+1494
+Processing file 333/561: T1000_D00_S0100.mat
+1377
+Processing file 374/561: T1000_D00_S0000.mat
+1374
+Processing label:  T10000
+Processing file 1/561: T10000_S1011.mat
+1443
+Processing file 93/561: T10000_S0100.mat
+1439
+Processing file 95/561: T10000_S0111.mat
+1472
+Processing file 119/561: T10000_S1000.mat
+1556
+Processing label:  T10001
+Processing file 249/561: T10001_S0101.mat
+720
+Processing file 321/561: T10001_S0100.mat
+680
+Processing file 452/561: T10001_S0011.mat
+709
+Processing file 465/561: T10001_S0110.mat
+602
+Processing label:  T1001
+Processing file 59/561: T1001_D00_S0011.mat
+1526
+Processing file 118/561: T1001_D00_S0111.mat
+1494
+Processing file 301/561: T1001_D00_S0000.mat
+2063
+Processing file 542/561: T1001_D00_S0100.mat
+1472
+Processing label:  T10010
+Processing file 10/561: T10010_S0110.mat
+1130
+Processing file 236/561: T10010_S0000.mat
+1180
+Processing file 240/561: T10010_S0111.mat
+1240
+Processing file 450/561: T10010_S0001.mat
+1108
+Processing label:  T10011
+Processing file 71/561: T10011_S0001.mat
+787
+Processing file 180/561: T10011_S1010.mat
+1044
+Processing file 198/561: T10011_S1001.mat
+877
+Processing file 337/561: T10011_S0000.mat
+799
+Processing label:  T1010
+Processing file 120/561: T1010_S0011.mat
+1390
+Processing file 293/561: T1010_S1011.mat
+1491
+Processing file 306/561: T1010_S0010.mat
+1391
+Processing file 446/561: T1010_S0000.mat
+1178
+Processing label:  T10100
+Processing file 62/561: T10100_S0100.mat
+1564
+Processing file 153/561: T10100_S0101.mat
+1568
+Processing file 443/561: T10100_S1001.mat
+1563
+Processing file 508/561: T10100_S0111.mat
+1850
+Processing label:  T10101
+Processing file 38/561: T10101_S0111.mat
+1127
+Processing file 60/561: T10101_S0101.mat
+940
+Processing file 142/561: T10101_S1000.mat
+1068
+Processing file 162/561: T10101_S0011.mat
+1017
+Processing label:  T1011
+Processing file 110/561: T1011_S0011.mat
+1585
+Processing file 476/561: T1011_S0000.mat
+1862
+Processing file 481/561: T1011_S0101.mat
+1482
+Processing file 509/561: T1011_S0010.mat
+1776
+Processing label:  T10110
+Processing file 7/561: T10110_S1000.mat
+915
+Processing file 23/561: T10110_S0100.mat
+1023
+Processing file 129/561: T10110_S0011.mat
+866
+Processing file 279/561: T10110_S1011.mat
+968
+Processing label:  T10111
+Processing file 20/561: T10111_S0011.mat
+1332
+Processing file 63/561: T10111_S0111.mat
+1155
+Processing file 107/561: T10111_S1010.mat
+1193
+Processing file 121/561: T10111_S0010.mat
+1134
+Processing label:  T1100
+Processing file 251/561: T1100_S1010.mat
+1599
+Processing file 277/561: T1100_S0101.mat
+1298
+Processing file 410/561: T1100_S0010.mat
+1494
+Processing file 489/561: T1100_S0110.mat
+1695
+Processing label:  T11000
+Processing file 201/561: T11000_S0100.mat
+641
+Processing file 296/561: T11000_S0011.mat
+489
+Processing file 343/561: T11000_S0101.mat
+393
+Processing file 344/561: T11000_S1000.mat
+524
+Processing label:  T1101
+Processing file 31/561: T1101_S1001.mat
+1603
+Processing file 61/561: T1101_S1000.mat
+1502
+Processing file 175/561: T1101_S0001.mat
+1700
+Processing file 302/561: T1101_S0000.mat
+1799
+Processing label:  T1110
+Processing file 299/561: T1110_S1000.mat
+823
+Processing file 385/561: T1110_S1001.mat
+896
+Processing file 396/561: T1110_S1011.mat
+747
+Processing file 421/561: T1110_S1010.mat
+774
+Processing label:  T1111
+Processing file 85/561: T1111_S0111.mat
+1585
+Processing file 122/561: T1111_S0110.mat
+1689
+Processing file 276/561: T1111_S1010.mat
+1582
+Processing file 394/561: T1111_S1011.mat
+1483
+Processing label:  T0000
+Processing file : T0000_D00_S0110.mat
+Processing file : T0000_D00_S0110.mat
+train saved
+val saved
+test saved
+466
+Processing file : T0000_D00_S0101.mat
+Processing file : T0000_D00_S0101.mat
+train saved
+val saved
+test saved
+466
+Processing file : T0000_D00_S10001.mat
+Processing file : T0000_D00_S10001.mat
+train saved
+val saved
+test saved
+268
+total:  1200
+Processing label:  T0001
+Processing file : T0001_D00_S0101.mat
+Processing file : T0001_D00_S0101.mat
+train saved
+val saved
+test saved
+218
+Processing file : T0001_D00_S0110.mat
+Processing file : T0001_D00_S0110.mat
+train saved
+val saved
+test saved
+209
+Processing file : T0001_D00_S1010.mat
+Processing file : T0001_D00_S1010.mat
+train saved
+val saved
+test saved
+238
+Processing file : T0001_D00_S1000.mat
+Processing file : T0001_D00_S1000.mat
+train saved
+val saved
+test saved
+214
+total:  879
+Processing label:  T0010
+Processing file : T0010_D00_S0011.mat
+Processing file : T0010_D00_S0011.mat
+train saved
+val saved
+test saved
+453
+Processing file : T0010_D00_S0100.mat
+Processing file : T0010_D00_S0100.mat
+train saved
+val saved
+test saved
+516
+Processing file : T0010_D00_S0111.mat
+Processing file : T0010_D00_S0111.mat
+train saved
+val saved
+test saved
+231
+total:  1200
+Processing label:  T0011
+Processing file : T0011_D00_S0101.mat
+Processing file : T0011_D00_S0101.mat
+train saved
+val saved
+test saved
+437
+Processing file : T0011_D00_S0010.mat
+Processing file : T0011_D00_S0010.mat
+train saved
+val saved
+test saved
+401
+Processing file : T0011_D00_S0000.mat
+Processing file : T0011_D00_S0000.mat
+train saved
+val saved
+test saved
+362
+total:  1200
+Processing label:  T0100
+Processing file : T0100_D00_S0100.mat
+Processing file : T0100_D00_S0100.mat
+train saved
+val saved
+test saved
+378
+Processing file : T0100_D00_S0110.mat
+Processing file : T0100_D00_S0110.mat
+train saved
+val saved
+test saved
+315
+Processing file : T0100_D00_S1000.mat
+Processing file : T0100_D00_S1000.mat
+train saved
+val saved
+test saved
+406
+Processing file : T0100_D00_S0101.mat
+Processing file : T0100_D00_S0101.mat
+train saved
+val saved
+test saved
+101
+total:  1200
+Processing label:  T0101
+Processing file : T0101_D00_S0011.mat
+Processing file : T0101_D00_S0011.mat
+train saved
+val saved
+test saved
+530
+Processing file : T0101_D00_S0010.mat
+Processing file : T0101_D00_S0010.mat
+train saved
+val saved
+test saved
+494
+Processing file : T0101_D00_S0101.mat
+Processing file : T0101_D00_S0101.mat
+train saved
+val saved
+test saved
+176
+total:  1200
+Processing label:  T0110
+Processing file : T0110_D00_S1000.mat
+Processing file : T0110_D00_S1000.mat
+train saved
+val saved
+test saved
+433
+Processing file : T0110_D00_S0011.mat
+Processing file : T0110_D00_S0011.mat
+train saved
+val saved
+test saved
+493
+Processing file : T0110_D00_S0010.mat
+Processing file : T0110_D00_S0010.mat
+train saved
+val saved
+test saved
+274
+total:  1200
+Processing label:  T0111
+Processing file : T0111_D00_S0011.mat
+Processing file : T0111_D00_S0011.mat
+train saved
+val saved
+test saved
+462
+Processing file : T0111_D00_S0010.mat
+Processing file : T0111_D00_S0010.mat
+train saved
+val saved
+test saved
+441
+Processing file : T0111_D00_S0111.mat
+Processing file : T0111_D00_S0111.mat
+train saved
+val saved
+test saved
+297
+total:  1200
+Processing label:  T1000
+Processing file : T1000_D00_S0010.mat
+Processing file : T1000_D00_S0010.mat
+train saved
+val saved
+test saved
+492
+Processing file : T1000_D00_S0001.mat
+Processing file : T1000_D00_S0001.mat
+train saved
+val saved
+test saved
+498
+Processing file : T1000_D00_S0100.mat
+Processing file : T1000_D00_S0100.mat
+train saved
+val saved
+test saved
+210
+total:  1200
+Processing label:  T10000
+Processing file : T10000_S1011.mat
+Processing file : T10000_S1011.mat
+train saved
+val saved
+test saved
+481
+Processing file : T10000_S0100.mat
+Processing file : T10000_S0100.mat
+train saved
+val saved
+test saved
+479
+Processing file : T10000_S0111.mat
+Processing file : T10000_S0111.mat
+train saved
+val saved
+test saved
+240
+total:  1200
+Processing label:  T10001
+Processing file : T10001_S0101.mat
+Processing file : T10001_S0101.mat
+train saved
+val saved
+test saved
+240
+Processing file : T10001_S0100.mat
+Processing file : T10001_S0011.mat
+Processing file : T10001_S0110.mat
+total:  240
+Processing label:  T1001
+Processing file : T1001_D00_S0011.mat
+Processing file : T1001_D00_S0011.mat
+train saved
+val saved
+test saved
+508
+Processing file : T1001_D00_S0111.mat
+Processing file : T1001_D00_S0111.mat
+train saved
+val saved
+test saved
+498
+Processing file : T1001_D00_S0000.mat
+Processing file : T1001_D00_S0000.mat
+train saved
+val saved
+test saved
+194
+total:  1200
+Processing label:  T10010
+Processing file : T10010_S0110.mat
+Processing file : T10010_S0110.mat
+train saved
+val saved
+test saved
+376
+Processing file : T10010_S0000.mat
+Processing file : T10010_S0000.mat
+train saved
+val saved
+test saved
+393
+Processing file : T10010_S0111.mat
+Processing file : T10010_S0111.mat
+train saved
+val saved
+test saved
+413
+Processing file : T10010_S0001.mat
+Processing file : T10010_S0001.mat
+train saved
+val saved
+test saved
+18
+total:  1200
+Processing label:  T10011
+Processing file : T10011_S0001.mat
+Processing file : T10011_S0001.mat
+train saved
+val saved
+test saved
+262
+Processing file : T10011_S1010.mat
+Processing file : T10011_S1010.mat
+train saved
+val saved
+test saved
+348
+Processing file : T10011_S1001.mat
+Processing file : T10011_S1001.mat
+train saved
+val saved
+test saved
+292
+Processing file : T10011_S0000.mat
+Processing file : T10011_S0000.mat
+train saved
+val saved
+test saved
+266
+total:  1168
+Processing label:  T1010
+Processing file : T1010_S0011.mat
+Processing file : T1010_S0011.mat
+train saved
+val saved
+test saved
+463
+Processing file : T1010_S1011.mat
+Processing file : T1010_S1011.mat
+train saved
+val saved
+test saved
+497
+Processing file : T1010_S0010.mat
+Processing file : T1010_S0010.mat
+train saved
+val saved
+test saved
+240
+total:  1200
+Processing label:  T10100
+Processing file : T10100_S0100.mat
+Processing file : T10100_S0100.mat
+train saved
+val saved
+test saved
+521
+Processing file : T10100_S0101.mat
+Processing file : T10100_S0101.mat
+train saved
+val saved
+test saved
+522
+Processing file : T10100_S1001.mat
+Processing file : T10100_S1001.mat
+train saved
+val saved
+test saved
+157
+total:  1200
+Processing label:  T10101
+Processing file : T10101_S0111.mat
+Processing file : T10101_S0111.mat
+train saved
+val saved
+test saved
+375
+Processing file : T10101_S0101.mat
+Processing file : T10101_S0101.mat
+train saved
+val saved
+test saved
+313
+Processing file : T10101_S1000.mat
+Processing file : T10101_S1000.mat
+train saved
+val saved
+test saved
+356
+Processing file : T10101_S0011.mat
+Processing file : T10101_S0011.mat
+train saved
+val saved
+test saved
+156
+total:  1200
+Processing label:  T1011
+Processing file : T1011_S0011.mat
+Processing file : T1011_S0011.mat
+train saved
+val saved
+test saved
+528
+Processing file : T1011_S0000.mat
+Processing file : T1011_S0000.mat
+train saved
+val saved
+test saved
+620
+Processing file : T1011_S0101.mat
+Processing file : T1011_S0101.mat
+train saved
+val saved
+test saved
+52
+total:  1200
+Processing label:  T10110
+Processing file : T10110_S1000.mat
+Processing file : T10110_S1000.mat
+train saved
+val saved
+test saved
+305
+Processing file : T10110_S0100.mat
+Processing file : T10110_S0100.mat
+train saved
+val saved
+test saved
+341
+Processing file : T10110_S0011.mat
+Processing file : T10110_S0011.mat
+train saved
+val saved
+test saved
+288
+Processing file : T10110_S1011.mat
+Processing file : T10110_S1011.mat
+train saved
+val saved
+test saved
+266
+total:  1200
+Processing label:  T10111
+Processing file : T10111_S0011.mat
+Processing file : T10111_S0011.mat
+train saved
+val saved
+test saved
+444
+Processing file : T10111_S0111.mat
+Processing file : T10111_S0111.mat
+train saved
+val saved
+test saved
+385
+Processing file : T10111_S1010.mat
+Processing file : T10111_S1010.mat
+train saved
+val saved
+test saved
+371
+total:  1200
+Processing label:  T1100
+Processing file : T1100_S1010.mat
+Processing file : T1100_S1010.mat
+train saved
+val saved
+test saved
+533
+Processing file : T1100_S0101.mat
+Processing file : T1100_S0101.mat
+train saved
+val saved
+test saved
+432
+Processing file : T1100_S0010.mat
+Processing file : T1100_S0010.mat
+train saved
+val saved
+test saved
+235
+total:  1200
+Processing label:  T11000
+Processing file : T11000_S0100.mat
+Processing file : T11000_S0100.mat
+train saved
+val saved
+test saved
+213
+Processing file : T11000_S0011.mat
+Processing file : T11000_S0011.mat
+train saved
+val saved
+test saved
+163
+Processing file : T11000_S0101.mat
+Processing file : T11000_S0101.mat
+train saved
+val saved
+test saved
+131
+Processing file : T11000_S1000.mat
+Processing file : T11000_S1000.mat
+train saved
+val saved
+test saved
+174
+total:  681
+Processing label:  T1101
+Processing file : T1101_S1001.mat
+Processing file : T1101_S1001.mat
+train saved
+val saved
+test saved
+534
+Processing file : T1101_S1000.mat
+Processing file : T1101_S1000.mat
+train saved
+val saved
+test saved
+500
+Processing file : T1101_S0001.mat
+Processing file : T1101_S0001.mat
+train saved
+val saved
+test saved
+166
+total:  1200
+Processing label:  T1110
+Processing file : T1110_S1000.mat
+Processing file : T1110_S1000.mat
+train saved
+val saved
+test saved
+274
+Processing file : T1110_S1001.mat
+Processing file : T1110_S1001.mat
+train saved
+val saved
+test saved
+298
+Processing file : T1110_S1011.mat
+Processing file : T1110_S1011.mat
+train saved
+val saved
+test saved
+249
+Processing file : T1110_S1010.mat
+Processing file : T1110_S1010.mat
+train saved
+val saved
+test saved
+258
+total:  1079
+Processing label:  T1111
+Processing file : T1111_S0111.mat
+Processing file : T1111_S0111.mat
+train saved
+val saved
+test saved
+528
+Processing file : T1111_S0110.mat
+Processing file : T1111_S0110.mat
+train saved
+val saved
+test saved
+563
+Processing file : T1111_S1010.mat
+Processing file : T1111_S1010.mat
+train saved
+val saved
+test saved
+109
+total:  1200

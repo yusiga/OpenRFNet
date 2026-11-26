@@ -1,0 +1,133 @@
+cuda
+{'T10101': 2906, 'T1110': 1067, 'T10111': 1725}
+/home/fankaiqing/DroneRFa_ztr/Transformer_SupCon/gen_test.py:104: RuntimeWarning: invalid value encountered in divide
+  conf_normalized = conf / conf.sum(axis=1)[:, np.newaxis]
+Traceback (most recent call last):
+  File "/home/fankaiqing/DroneRFa_ztr/Transformer_SupCon/gen_test.py", line 122, in <module>
+    report = classification_report(true_label_list, predict_label_list, target_names=encoder.classes_, digits=4)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fankaiqing/anaconda3/envs/py311/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 218, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fankaiqing/anaconda3/envs/py311/lib/python3.11/site-packages/sklearn/metrics/_classification.py", line 2970, in classification_report
+    raise ValueError(
+ValueError: Number of classes, 18, does not match size of target_names, 20. Try specifying the labels parameter
+Random seed : 42
+T10111 nums: 1725
+true:  600
+T10101 nums: 2906
+true:  600
+T1110 nums: 1067
+true:  600
+1800
+Random seed : 42
+cuda
+train nums: 15367
+val nums: 5148
+train batch nums: 120
+val batch nums: 41
+Train begin
+Epoch 0, Train Loss: 2.2202120383580524, Train Accuracy: 0.9134114583333334， Val Loss: 1.6452666137601946, Val Accuracy: 0.986013986013986, epoch_time: 891.3894271850586, lr: 0.001
+model has improved
+Epoch 1, Train Loss: 1.215682712694009, Train Accuracy: 0.9936197916666667， Val Loss: 0.8721214708377895, Val Accuracy: 0.9871794871794872, epoch_time: 837.0719423294067, lr: 0.0009779754323328191
+model has improved
+Epoch 2, Train Loss: 0.6401229821145534, Train Accuracy: 0.9952473958333333， Val Loss: 0.48775732234734015, Val Accuracy: 0.9877622377622378, epoch_time: 869.4594399929047, lr: 0.0009140576474687263
+model has improved
+Epoch 3, Train Loss: 0.37300803139805794, Train Accuracy: 0.9960286458333333， Val Loss: 0.31863350715855804, Val Accuracy: 0.9873737373737373, epoch_time: 873.7080154418945, lr: 0.000814503363531613
+model has improved
+Epoch 4, Train Loss: 0.2507469600687424, Train Accuracy: 0.99609375， Val Loss: 0.23285612159444088, Val Accuracy: 0.98989898989899, epoch_time: 864.71631026268, lr: 0.0006890576474687264
+model has improved
+Epoch 5, Train Loss: 0.18746556093295416, Train Accuracy: 0.9974609375， Val Loss: 0.19125881898792196, Val Accuracy: 0.9893162393162394, epoch_time: 856.0005111694336, lr: 0.00055
+model has improved
+Epoch 6, Train Loss: 0.15363432851930459, Train Accuracy: 0.9968098958333333， Val Loss: 0.16933026649318375, Val Accuracy: 0.9893162393162394, epoch_time: 870.3800392150879, lr: 0.00041094235253127373
+model has improved
+Epoch 7, Train Loss: 0.13322551026940346, Train Accuracy: 0.9975911458333333， Val Loss: 0.1508804184862969, Val Accuracy: 0.9902874902874903, epoch_time: 881.1455025672913, lr: 0.00028549663646838715
+model has improved
+Epoch 8, Train Loss: 0.12113406198720138, Train Accuracy: 0.9977213541666666， Val Loss: 0.1435150795883232, Val Accuracy: 0.9897047397047397, epoch_time: 907.5415873527527, lr: 0.00018594235253127373
+model has improved
+Epoch 9, Train Loss: 0.11425209337224564, Train Accuracy: 0.9977213541666666， Val Loss: 0.13744806367455292, Val Accuracy: 0.98989898989899, epoch_time: 893.6771228313446, lr: 0.00012202456766718093
+model has improved
+cuda
+Classification Report:
+              precision    recall  f1-score   support
+
+       T0000     0.9833    0.9752    0.9793       242
+       T0010     0.9959    0.9959    0.9959       242
+       T0011     0.9958    0.9793    0.9875       242
+       T0100     0.9797    0.9959    0.9877       242
+       T0101     1.0000    1.0000    1.0000       241
+       T0110     1.0000    1.0000    1.0000       241
+       T0111     0.9917    0.9835    0.9876       242
+       T1000     1.0000    1.0000    1.0000       241
+      T10000     1.0000    1.0000    1.0000       241
+       T1001     1.0000    1.0000    1.0000       241
+      T10010     1.0000    0.9876    0.9938       242
+       T1010     1.0000    0.9668    0.9831       241
+      T10100     1.0000    1.0000    1.0000       242
+      T10101     0.9873    0.9669    0.9770       242
+       T1011     1.0000    1.0000    1.0000       241
+      T10111     1.0000    0.9751    0.9874       241
+       T1100     1.0000    1.0000    1.0000       241
+       T1101     1.0000    1.0000    1.0000       241
+       T1110     0.9953    0.9770    0.9860       217
+       T1111     0.9602    1.0000    0.9797       241
+    unknowns     0.9395    0.9917    0.9649       360
+
+    accuracy                         0.9903      5164
+   macro avg     0.9918    0.9902    0.9909      5164
+weighted avg     0.9906    0.9903    0.9904      5164
+
+Scanning data files...
+Starting Batch Inference (Total: 6748 samples)...
+
+Saving results to .mat files...
+[T1111] Saved: 241 samples
+[T1011] Saved: 241 samples
+[T0000] Saved: 242 samples
+[T10010] Saved: 242 samples
+[T0010] Saved: 242 samples
+[T0101] Saved: 241 samples
+[T10101] Saved: 242 samples
+[T10011] Saved: 471 samples
+[T1101] Saved: 241 samples
+[T0100] Saved: 242 samples
+[T0001] Saved: 354 samples
+[T10100] Saved: 242 samples
+[T0110] Saved: 241 samples
+[T1000] Saved: 241 samples
+[T1010] Saved: 241 samples
+[T11000] Saved: 275 samples
+[T1100] Saved: 241 samples
+[T10001] Saved: 362 samples
+[T0011] Saved: 242 samples
+[T1110] Saved: 217 samples
+[T1001] Saved: 241 samples
+[T10000] Saved: 241 samples
+[T0111] Saved: 242 samples
+[T10111] Saved: 241 samples
+[T10110] Saved: 482 samples
+Scanning all training files...
+Starting Batch Inference (Total: 15367 samples)...
+
+Computing MAV and Distances...
+[T0110] Processed successfully. Correct samples: 718
+[T10111] Processed successfully. Correct samples: 716
+[T1101] Processed successfully. Correct samples: 719
+[T0000] Processed successfully. Correct samples: 718
+[T10010] Processed successfully. Correct samples: 717
+[T10100] Processed successfully. Correct samples: 717
+[T1010] Processed successfully. Correct samples: 718
+[T1001] Processed successfully. Correct samples: 718
+[T0010] Processed successfully. Correct samples: 718
+[T0111] Processed successfully. Correct samples: 717
+[T10000] Processed successfully. Correct samples: 719
+[unknowns] Processed successfully. Correct samples: 1064
+[T1100] Processed successfully. Correct samples: 718
+[T1011] Processed successfully. Correct samples: 718
+[T1111] Processed successfully. Correct samples: 718
+[T0101] Processed successfully. Correct samples: 719
+[T0011] Processed successfully. Correct samples: 717
+[T10101] Processed successfully. Correct samples: 709
+[T0100] Processed successfully. Correct samples: 718
+[T1110] Processed successfully. Correct samples: 641
+[T1000] Processed successfully. Correct samples: 718

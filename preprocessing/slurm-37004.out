@@ -1,0 +1,42 @@
+561
+/home/fankaiqing/anaconda3/envs/py311/lib/python3.11/site-packages/sklearn/base.py:442: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.5.2 when using version 1.7.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+Processing label:  T10001
+Processing file 249/561: T10001_S0101.mat
+720
+Processing file 454/561: T10001_S0111.mat
+610
+Processing file 513/561: T10001_S1011.mat
+653
+Processing file 527/561: T10001_S0010.mat
+719
+/home/fankaiqing/anaconda3/envs/py311/lib/python3.11/site-packages/sklearn/base.py:442: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.5.2 when using version 1.7.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+Processing label:  T10001
+Processing file : T10001_S0101.mat
+Processing file : T10001_S0101.mat
+train saved
+val saved
+test saved
+240
+Processing file : T10001_S0111.mat
+Processing file : T10001_S0111.mat
+train saved
+val saved
+test saved
+203
+Processing file : T10001_S1011.mat
+Processing file : T10001_S1011.mat
+train saved
+val saved
+test saved
+217
+Processing file : T10001_S0010.mat
+Processing file : T10001_S0010.mat
+train saved
+val saved
+test saved
+239
+total:  899
