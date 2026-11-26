@@ -1,0 +1,69 @@
+Random seed : 42
+Device: cuda
+../model/timesfm/model_epoch_31.pth
+train nums: 14320
+val nums: 4782
+unknown nums: 1580
+train loaded reps: (14320, 1280)
+val loaded reps: (4782, 1280)
+unknown loaded reps: (1580, 1280)
+可训练参数列表：
+  - feature_extractor.0.weight
+  - feature_extractor.0.bias
+  - feature_extractor.2.weight
+  - feature_extractor.2.bias
+  - feature_extractor.4.weight
+  - feature_extractor.4.bias
+  - fc_head.weight
+  - fc_head.bias
+====== Stage2 Train Begin (验证部分切换至 FEAT 空间) ======
+[Stage2] Epoch 0, Loss: 0.3320, U-Loss: 0.1533, Acc: 0.9960, Val Loss: 0.1082, Val Acc: 0.9954, Val Acc(T): 0.9193, Total U-Acc: 91.96% | Auto-Thresh: 0.8639, Gen-AUROC: 0.9779 | U-Acc(<Thresh): [mavic3C_1: 97.83%, mavicAir2s_1: 86.16%], Time: 8.06s, lr: 0.000186
+[Stage2] Epoch 1, Loss: 0.1346, U-Loss: 0.0819, Acc: 0.9983, Val Loss: 0.0439, Val Acc: 0.9967, Val Acc(T): 0.9214, Total U-Acc: 92.09% | Auto-Thresh: 0.9169, Gen-AUROC: 0.9777 | U-Acc(<Thresh): [mavic3C_1: 98.73%, mavicAir2s_1: 85.53%], Time: 7.74s, lr: 0.000411
+[Stage2] Epoch 2, Loss: 0.1082, U-Loss: 0.0707, Acc: 0.9987, Val Loss: 0.0869, Val Acc: 0.9883, Val Acc(T): 0.9228, Total U-Acc: 92.34% | Auto-Thresh: 0.9049, Gen-AUROC: 0.9728 | U-Acc(<Thresh): [mavic3C_1: 98.09%, mavicAir2s_1: 86.67%], Time: 7.87s, lr: 0.000689
+[Stage2] Epoch 3, Loss: 0.0996, U-Loss: 0.0676, Acc: 0.9981, Val Loss: 0.0656, Val Acc: 0.9895, Val Acc(T): 0.9203, Total U-Acc: 91.96% | Auto-Thresh: 0.9309, Gen-AUROC: 0.9763 | U-Acc(<Thresh): [mavic3C_1: 97.71%, mavicAir2s_1: 86.29%], Time: 7.83s, lr: 0.000914
+[Stage2] Epoch 4, Loss: 0.0804, U-Loss: 0.0523, Acc: 0.9971, Val Loss: 0.0517, Val Acc: 0.9944, Val Acc(T): 0.9126, Total U-Acc: 91.20% | Auto-Thresh: 0.9640, Gen-AUROC: 0.9752 | U-Acc(<Thresh): [mavic3C_1: 98.22%, mavicAir2s_1: 84.28%], Time: 7.90s, lr: 0.001000
+[Stage2] Epoch 5, Loss: 0.0693, U-Loss: 0.0441, Acc: 0.9983, Val Loss: 0.0430, Val Acc: 0.9887, Val Acc(T): 0.9072, Total U-Acc: 90.76% | Auto-Thresh: 0.9780, Gen-AUROC: 0.9759 | U-Acc(<Thresh): [mavic3C_1: 98.60%, mavicAir2s_1: 83.02%], Time: 7.75s, lr: 0.000999
+[Stage2] Epoch 6, Loss: 0.0626, U-Loss: 0.0405, Acc: 0.9980, Val Loss: 0.0653, Val Acc: 0.9914, Val Acc(T): 0.8896, Total U-Acc: 88.92% | Auto-Thresh: 0.9710, Gen-AUROC: 0.9685 | U-Acc(<Thresh): [mavic3C_1: 96.94%, mavicAir2s_1: 81.01%], Time: 7.85s, lr: 0.000995
+[Stage2] Epoch 7, Loss: 0.0480, U-Loss: 0.0303, Acc: 0.9983, Val Loss: 0.0452, Val Acc: 0.9893, Val Acc(T): 0.9084, Total U-Acc: 90.76% | Auto-Thresh: 0.9800, Gen-AUROC: 0.9779 | U-Acc(<Thresh): [mavic3C_1: 97.45%, mavicAir2s_1: 84.15%], Time: 7.76s, lr: 0.000989
+[Stage2] Epoch 8, Loss: 0.0447, U-Loss: 0.0316, Acc: 0.9990, Val Loss: 0.0400, Val Acc: 0.9935, Val Acc(T): 0.9095, Total U-Acc: 90.70% | Auto-Thresh: 0.9830, Gen-AUROC: 0.9752 | U-Acc(<Thresh): [mavic3C_1: 98.34%, mavicAir2s_1: 83.14%], Time: 7.79s, lr: 0.000981
+[Stage2] Epoch 9, Loss: 0.0375, U-Loss: 0.0230, Acc: 0.9987, Val Loss: 0.0456, Val Acc: 0.9937, Val Acc(T): 0.9030, Total U-Acc: 90.13% | Auto-Thresh: 0.9860, Gen-AUROC: 0.9756 | U-Acc(<Thresh): [mavic3C_1: 98.22%, mavicAir2s_1: 82.14%], Time: 7.65s, lr: 0.000970
+[Stage2] Epoch 10, Loss: 0.0439, U-Loss: 0.0291, Acc: 0.9988, Val Loss: 0.0526, Val Acc: 0.9893, Val Acc(T): 0.9009, Total U-Acc: 90.19% | Auto-Thresh: 0.9840, Gen-AUROC: 0.9743 | U-Acc(<Thresh): [mavic3C_1: 97.58%, mavicAir2s_1: 82.89%], Time: 7.75s, lr: 0.000957
+[Stage2] Epoch 11, Loss: 0.0342, U-Loss: 0.0231, Acc: 0.9993, Val Loss: 0.0470, Val Acc: 0.9914, Val Acc(T): 0.9228, Total U-Acc: 92.41% | Auto-Thresh: 0.9840, Gen-AUROC: 0.9780 | U-Acc(<Thresh): [mavic3C_1: 98.34%, mavicAir2s_1: 86.54%], Time: 7.88s, lr: 0.000942
+[Stage2] Epoch 12, Loss: 0.0288, U-Loss: 0.0197, Acc: 0.9994, Val Loss: 0.0439, Val Acc: 0.9898, Val Acc(T): 0.8894, Total U-Acc: 89.11% | Auto-Thresh: 0.9890, Gen-AUROC: 0.9746 | U-Acc(<Thresh): [mavic3C_1: 97.83%, mavicAir2s_1: 80.50%], Time: 7.90s, lr: 0.000925
+[Stage2] Epoch 13, Loss: 0.0261, U-Loss: 0.0178, Acc: 0.9994, Val Loss: 0.0367, Val Acc: 0.9921, Val Acc(T): 0.8957, Total U-Acc: 89.43% | Auto-Thresh: 0.9890, Gen-AUROC: 0.9764 | U-Acc(<Thresh): [mavic3C_1: 98.73%, mavicAir2s_1: 80.25%], Time: 7.89s, lr: 0.000905
+[Stage2] Epoch 14, Loss: 0.0254, U-Loss: 0.0189, Acc: 0.9994, Val Loss: 0.0365, Val Acc: 0.9910, Val Acc(T): 0.9009, Total U-Acc: 90.19% | Auto-Thresh: 0.9900, Gen-AUROC: 0.9714 | U-Acc(<Thresh): [mavic3C_1: 97.20%, mavicAir2s_1: 83.27%], Time: 7.91s, lr: 0.000884
+[Stage2] Epoch 15, Loss: 0.0207, U-Loss: 0.0146, Acc: 0.9994, Val Loss: 0.0528, Val Acc: 0.9877, Val Acc(T): 0.8931, Total U-Acc: 88.92% | Auto-Thresh: 0.9880, Gen-AUROC: 0.9740 | U-Acc(<Thresh): [mavic3C_1: 97.58%, mavicAir2s_1: 80.38%], Time: 7.58s, lr: 0.000861
+[Stage2] Epoch 16, Loss: 0.0211, U-Loss: 0.0160, Acc: 0.9997, Val Loss: 0.0456, Val Acc: 0.9889, Val Acc(T): 0.9107, Total U-Acc: 91.77% | Auto-Thresh: 0.9890, Gen-AUROC: 0.9799 | U-Acc(<Thresh): [mavic3C_1: 98.09%, mavicAir2s_1: 85.53%], Time: 7.51s, lr: 0.000836
+[Stage2] Epoch 17, Loss: 0.0190, U-Loss: 0.0148, Acc: 0.9997, Val Loss: 0.0423, Val Acc: 0.9883, Val Acc(T): 0.9266, Total U-Acc: 93.04% | Auto-Thresh: 0.9880, Gen-AUROC: 0.9832 | U-Acc(<Thresh): [mavic3C_1: 98.60%, mavicAir2s_1: 87.55%], Time: 7.50s, lr: 0.000810
+[Stage2] Epoch 18, Loss: 0.0164, U-Loss: 0.0126, Acc: 0.9998, Val Loss: 0.0479, Val Acc: 0.9881, Val Acc(T): 0.9373, Total U-Acc: 93.42% | Auto-Thresh: 0.9850, Gen-AUROC: 0.9837 | U-Acc(<Thresh): [mavic3C_1: 98.47%, mavicAir2s_1: 88.43%], Time: 7.53s, lr: 0.000782
+[Stage2] Epoch 19, Loss: 0.0158, U-Loss: 0.0115, Acc: 0.9997, Val Loss: 0.0504, Val Acc: 0.9866, Val Acc(T): 0.9580, Total U-Acc: 95.76% | Auto-Thresh: 0.9630, Gen-AUROC: 0.9888 | U-Acc(<Thresh): [mavic3C_1: 97.58%, mavicAir2s_1: 93.96%], Time: 7.43s, lr: 0.000753
+[Stage2] Epoch 20, Loss: 0.0163, U-Loss: 0.0121, Acc: 0.9997, Val Loss: 0.0384, Val Acc: 0.9912, Val Acc(T): 0.9065, Total U-Acc: 90.13% | Auto-Thresh: 0.9910, Gen-AUROC: 0.9768 | U-Acc(<Thresh): [mavic3C_1: 97.96%, mavicAir2s_1: 82.39%], Time: 7.46s, lr: 0.000722
+[Stage2] Epoch 21, Loss: 0.0115, U-Loss: 0.0086, Acc: 0.9999, Val Loss: 0.0410, Val Acc: 0.9891, Val Acc(T): 0.8984, Total U-Acc: 89.75% | Auto-Thresh: 0.9920, Gen-AUROC: 0.9775 | U-Acc(<Thresh): [mavic3C_1: 98.73%, mavicAir2s_1: 80.88%], Time: 7.89s, lr: 0.000690
+[Stage2] Epoch 22, Loss: 0.0171, U-Loss: 0.0132, Acc: 0.9999, Val Loss: 0.0444, Val Acc: 0.9875, Val Acc(T): 0.9266, Total U-Acc: 92.47% | Auto-Thresh: 0.9890, Gen-AUROC: 0.9813 | U-Acc(<Thresh): [mavic3C_1: 98.98%, mavicAir2s_1: 86.04%], Time: 7.83s, lr: 0.000658
+[Stage2] Epoch 23, Loss: 0.0106, U-Loss: 0.0078, Acc: 0.9997, Val Loss: 0.0507, Val Acc: 0.9860, Val Acc(T): 0.8798, Total U-Acc: 87.22% | Auto-Thresh: 0.9930, Gen-AUROC: 0.9643 | U-Acc(<Thresh): [mavic3C_1: 96.69%, mavicAir2s_1: 77.86%], Time: 7.60s, lr: 0.000625
+[Stage2] Epoch 24, Loss: 0.0132, U-Loss: 0.0100, Acc: 0.9997, Val Loss: 0.0518, Val Acc: 0.9856, Val Acc(T): 0.9316, Total U-Acc: 93.35% | Auto-Thresh: 0.9890, Gen-AUROC: 0.9807 | U-Acc(<Thresh): [mavic3C_1: 98.47%, mavicAir2s_1: 88.30%], Time: 8.06s, lr: 0.000591
+[Stage2] Epoch 25, Loss: 0.0086, U-Loss: 0.0067, Acc: 0.9999, Val Loss: 0.0382, Val Acc: 0.9902, Val Acc(T): 0.9224, Total U-Acc: 91.71% | Auto-Thresh: 0.9920, Gen-AUROC: 0.9787 | U-Acc(<Thresh): [mavic3C_1: 98.09%, mavicAir2s_1: 85.41%], Time: 7.90s, lr: 0.000557
+[Stage2] Epoch 26, Loss: 0.0108, U-Loss: 0.0086, Acc: 0.9999, Val Loss: 0.0453, Val Acc: 0.9879, Val Acc(T): 0.9396, Total U-Acc: 93.67% | Auto-Thresh: 0.9890, Gen-AUROC: 0.9856 | U-Acc(<Thresh): [mavic3C_1: 98.60%, mavicAir2s_1: 88.81%], Time: 7.91s, lr: 0.000522
+[Stage2] Epoch 27, Loss: 0.0071, U-Loss: 0.0052, Acc: 0.9998, Val Loss: 0.0389, Val Acc: 0.9891, Val Acc(T): 0.9086, Total U-Acc: 91.46% | Auto-Thresh: 0.9920, Gen-AUROC: 0.9778 | U-Acc(<Thresh): [mavic3C_1: 98.34%, mavicAir2s_1: 84.65%], Time: 7.90s, lr: 0.000488
+[Stage2] Epoch 28, Loss: 0.0068, U-Loss: 0.0054, Acc: 0.9997, Val Loss: 0.0438, Val Acc: 0.9870, Val Acc(T): 0.9180, Total U-Acc: 91.65% | Auto-Thresh: 0.9910, Gen-AUROC: 0.9809 | U-Acc(<Thresh): [mavic3C_1: 98.34%, mavicAir2s_1: 85.03%], Time: 7.96s, lr: 0.000453
+[Stage2] Epoch 29, Loss: 0.0069, U-Loss: 0.0054, Acc: 0.9998, Val Loss: 0.0513, Val Acc: 0.9862, Val Acc(T): 0.9281, Total U-Acc: 92.53% | Auto-Thresh: 0.9910, Gen-AUROC: 0.9812 | U-Acc(<Thresh): [mavic3C_1: 98.34%, mavicAir2s_1: 86.79%], Time: 7.93s, lr: 0.000419
+[Stage2] Epoch 30, Loss: 0.0069, U-Loss: 0.0056, Acc: 0.9998, Val Loss: 0.0465, Val Acc: 0.9881, Val Acc(T): 0.9128, Total U-Acc: 91.08% | Auto-Thresh: 0.9920, Gen-AUROC: 0.9776 | U-Acc(<Thresh): [mavic3C_1: 97.96%, mavicAir2s_1: 84.28%], Time: 7.97s, lr: 0.000385
+[Stage2] Epoch 31, Loss: 0.0064, U-Loss: 0.0049, Acc: 0.9998, Val Loss: 0.0449, Val Acc: 0.9885, Val Acc(T): 0.9249, Total U-Acc: 92.91% | Auto-Thresh: 0.9900, Gen-AUROC: 0.9817 | U-Acc(<Thresh): [mavic3C_1: 98.60%, mavicAir2s_1: 87.30%], Time: 7.92s, lr: 0.000352
+[Stage2] Epoch 32, Loss: 0.0062, U-Loss: 0.0053, Acc: 0.9999, Val Loss: 0.0558, Val Acc: 0.9854, Val Acc(T): 0.9126, Total U-Acc: 91.01% | Auto-Thresh: 0.9900, Gen-AUROC: 0.9763 | U-Acc(<Thresh): [mavic3C_1: 98.47%, mavicAir2s_1: 83.65%], Time: 8.11s, lr: 0.000320
+[Stage2] Epoch 33, Loss: 0.0030, U-Loss: 0.0022, Acc: 0.9999, Val Loss: 0.0506, Val Acc: 0.9870, Val Acc(T): 0.9145, Total U-Acc: 91.90% | Auto-Thresh: 0.9910, Gen-AUROC: 0.9793 | U-Acc(<Thresh): [mavic3C_1: 98.47%, mavicAir2s_1: 85.41%], Time: 7.94s, lr: 0.000288
+[Stage2] Epoch 34, Loss: 0.0039, U-Loss: 0.0033, Acc: 0.9999, Val Loss: 0.0510, Val Acc: 0.9849, Val Acc(T): 0.9281, Total U-Acc: 92.78% | Auto-Thresh: 0.9900, Gen-AUROC: 0.9837 | U-Acc(<Thresh): [mavic3C_1: 98.60%, mavicAir2s_1: 87.04%], Time: 7.94s, lr: 0.000258
+[Stage2] Epoch 35, Loss: 0.0047, U-Loss: 0.0038, Acc: 0.9999, Val Loss: 0.0554, Val Acc: 0.9854, Val Acc(T): 0.9249, Total U-Acc: 91.90% | Auto-Thresh: 0.9900, Gen-AUROC: 0.9819 | U-Acc(<Thresh): [mavic3C_1: 98.34%, mavicAir2s_1: 85.53%], Time: 7.96s, lr: 0.000228
+[Stage2] Epoch 36, Loss: 0.0044, U-Loss: 0.0037, Acc: 0.9999, Val Loss: 0.0516, Val Acc: 0.9847, Val Acc(T): 0.9218, Total U-Acc: 92.91% | Auto-Thresh: 0.9910, Gen-AUROC: 0.9825 | U-Acc(<Thresh): [mavic3C_1: 97.83%, mavicAir2s_1: 88.05%], Time: 7.93s, lr: 0.000200
+[Stage2] Epoch 37, Loss: 0.0020, U-Loss: 0.0015, Acc: 0.9999, Val Loss: 0.0608, Val Acc: 0.9824, Val Acc(T): 0.9203, Total U-Acc: 92.41% | Auto-Thresh: 0.9890, Gen-AUROC: 0.9811 | U-Acc(<Thresh): [mavic3C_1: 98.47%, mavicAir2s_1: 86.42%], Time: 7.96s, lr: 0.000174
+[Stage2] Epoch 38, Loss: 0.0022, U-Loss: 0.0018, Acc: 0.9999, Val Loss: 0.0526, Val Acc: 0.9847, Val Acc(T): 0.9253, Total U-Acc: 92.22% | Auto-Thresh: 0.9900, Gen-AUROC: 0.9809 | U-Acc(<Thresh): [mavic3C_1: 98.60%, mavicAir2s_1: 85.91%], Time: 7.89s, lr: 0.000149
+[Stage2] Epoch 39, Loss: 0.0018, U-Loss: 0.0013, Acc: 0.9999, Val Loss: 0.0523, Val Acc: 0.9858, Val Acc(T): 0.9136, Total U-Acc: 91.14% | Auto-Thresh: 0.9910, Gen-AUROC: 0.9785 | U-Acc(<Thresh): [mavic3C_1: 98.34%, mavicAir2s_1: 84.03%], Time: 8.07s, lr: 0.000126
+[Stage2] Epoch 40, Loss: 0.0024, U-Loss: 0.0020, Acc: 0.9999, Val Loss: 0.0575, Val Acc: 0.9843, Val Acc(T): 0.9210, Total U-Acc: 91.90% | Auto-Thresh: 0.9900, Gen-AUROC: 0.9804 | U-Acc(<Thresh): [mavic3C_1: 98.34%, mavicAir2s_1: 85.53%], Time: 7.90s, lr: 0.000105
+[Stage2] Epoch 41, Loss: 0.0025, U-Loss: 0.0019, Acc: 0.9999, Val Loss: 0.0529, Val Acc: 0.9864, Val Acc(T): 0.9055, Total U-Acc: 91.39% | Auto-Thresh: 0.9920, Gen-AUROC: 0.9781 | U-Acc(<Thresh): [mavic3C_1: 98.22%, mavicAir2s_1: 84.65%], Time: 7.86s, lr: 0.000085
+[Stage2] Epoch 42, Loss: 0.0012, U-Loss: 0.0008, Acc: 0.9999, Val Loss: 0.0562, Val Acc: 0.9854, Val Acc(T): 0.9272, Total U-Acc: 92.78% | Auto-Thresh: 0.9890, Gen-AUROC: 0.9821 | U-Acc(<Thresh): [mavic3C_1: 98.47%, mavicAir2s_1: 87.17%], Time: 7.79s, lr: 0.000068
+[Stage2] Epoch 43, Loss: 0.0012, U-Loss: 0.0008, Acc: 0.9999, Val Loss: 0.0597, Val Acc: 0.9849, Val Acc(T): 0.9283, Total U-Acc: 92.85% | Auto-Thresh: 0.9890, Gen-AUROC: 0.9818 | U-Acc(<Thresh): [mavic3C_1: 98.60%, mavicAir2s_1: 87.17%], Time: 7.90s, lr: 0.000053
+[Stage2] Epoch 44, Loss: 0.0016, U-Loss: 0.0012, Acc: 0.9999, Val Loss: 0.0582, Val Acc: 0.9854, Val Acc(T): 0.9299, Total U-Acc: 92.66% | Auto-Thresh: 0.9880, Gen-AUROC: 0.9811 | U-Acc(<Thresh): [mavic3C_1: 98.47%, mavicAir2s_1: 86.92%], Time: 7.87s, lr: 0.000040
+[Stage2] Epoch 45, Loss: 0.0024, U-Loss: 0.0021, Acc: 0.9999, Val Loss: 0.0611, Val Acc: 0.9843, Val Acc(T): 0.9297, Total U-Acc: 93.04% | Auto-Thresh: 0.9880, Gen-AUROC: 0.9814 | U-Acc(<Thresh): [mavic3C_1: 98.60%, mavicAir2s_1: 87.55%], Time: 7.95s, lr: 0.000029
+[Stage2] Epoch 46, Loss: 0.0015, U-Loss: 0.0011, Acc: 0.9999, Val Loss: 0.0607, Val Acc: 0.9858, Val Acc(T): 0.9253, Total U-Acc: 92.66% | Auto-Thresh: 0.9890, Gen-AUROC: 0.9805 | U-Acc(<Thresh): [mavic3C_1: 98.60%, mavicAir2s_1: 86.79%], Time: 7.94s, lr: 0.000021
+[Stage2] Epoch 47, Loss: 0.0019, U-Loss: 0.0016, Acc: 0.9999, Val Loss: 0.0590, Val Acc: 0.9854, Val Acc(T): 0.9241, Total U-Acc: 92.53% | Auto-Thresh: 0.9890, Gen-AUROC: 0.9799 | U-Acc(<Thresh): [mavic3C_1: 98.60%, mavicAir2s_1: 86.54%], Time: 7.87s, lr: 0.000015
+[Stage2] Epoch 48, Loss: 0.0026, U-Loss: 0.0022, Acc: 0.9999, Val Loss: 0.0602, Val Acc: 0.9847, Val Acc(T): 0.9274, Total U-Acc: 92.66% | Auto-Thresh: 0.9880, Gen-AUROC: 0.9806 | U-Acc(<Thresh): [mavic3C_1: 98.60%, mavicAir2s_1: 86.79%], Time: 7.92s, lr: 0.000011
+[Stage2] Epoch 49, Loss: 0.0012, U-Loss: 0.0008, Acc: 0.9999, Val Loss: 0.0612, Val Acc: 0.9845, Val Acc(T): 0.9239, Total U-Acc: 92.53% | Auto-Thresh: 0.9890, Gen-AUROC: 0.9801 | U-Acc(<Thresh): [mavic3C_1: 98.60%, mavicAir2s_1: 86.54%], Time: 8.15s, lr: 0.000010
