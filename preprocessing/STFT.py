@@ -263,8 +263,8 @@ def make_stft(mat_file_path, label_allow, need_nums):
 
 
 for label_allow in label_allow_list:
-    if label_allow != 'T10001':
-        continue
+    # if label_allow != 'T10001':
+    #     continue
     print('Processing label: ', label_allow)
     need_nums = 1200
     # Process .mat files and compute STFT

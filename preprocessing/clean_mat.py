@@ -254,8 +254,8 @@ def clean_mat(mat_file_path, label_allow):
 
 
 for label_allow in label_allow_list:
-    if label_allow != 'T10001':
-        continue
+    # if label_allow != 'T10001':
+    #     continue
     print('Processing label: ', label_allow)
     # Process .mat files and compute STFT
     for file_index, mat_file_path in enumerate(mat_files_paths):
